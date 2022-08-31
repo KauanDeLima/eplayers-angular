@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "email": "ben@gmail.com",
+      "password": "$2a$10$6n6WwXG1Tv6pDUoaq0xgHeiFaMyf33HdNaI9Pc.gOniCoJQgIcuVq",
+      "nome": "Benigno",
+      "id": 1
+    },
+    {
+      "email": "lucas@gmail.com",
+      "password": "$2a$10$4HZpNozx/usQSXL3CRvHH.geMWs7qBUrBUmm0DtPOG8JGlO/6EXwe",
+      "nome": "Lucas",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "title": "Hello",
+      "author": "Benigno Batista",
+      "id": 1
+    },
+    {
+      "title": "Título",
+      "author": "Maria",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
