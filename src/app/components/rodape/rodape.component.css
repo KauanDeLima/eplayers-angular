@@ -1,0 +1,178 @@
+/* Footer */
+.footer {
+    background-color: #010101;
+}
+
+.rodape {
+    max-width: 1200px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.linksbox {
+    width: 240px;
+    height: 250px;
+    padding: 20px;
+}
+
+.linkstítulo {
+    font-size: 24px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: white;
+}
+
+li {
+    font-family: "TitilliumWeb-SemiBold";
+    color: white;
+}
+
+.logotipobox{
+    width: 240px;
+    height: 250px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo2 {
+    width: 282px;
+    height: 29px;
+    padding: 2px;
+}
+
+.cadastroredes {
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.assinenewsletter{
+    font-size: 16px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: white;
+}
+
+.cadastroemail{
+    flex-direction: row;
+}
+
+.email {
+    width: 195px;
+    height: 39px;
+    background-color: white;
+    font-size: 24px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: #B8B3B3;
+    padding-left: 8px;
+}
+
+.cadastrar {
+    width: 156px;
+    height: 39px;
+    background-color: #001F70;
+    font-size: 24px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.redesocial {
+color: white;
+font-size: 23px;
+font-family: "TitilliumWeb-SemiBold";
+}
+
+.logoinsta {
+    width: 47px;
+    height: 47px;
+}
+
+.logoface {
+    width: 53px;
+    height: 48px;
+}
+
+.logoyoutube {
+    width: 38x;
+    height: 38px;
+}
+
+/* Medias */
+
+/*Celular: 0 - 767px */
+/*Tablet: 768 - 991px */
+/*Desktop: >= 992px */
+
+
+/*Desktop: >= 992px */
+@media screen and (min-width: 992px){
+    .menu-bars{
+        display: none;
+    }
+}
+
+/*Tablet: 0 - 991px */
+@media screen and (max-width: 991px){
+    .cabecalho {
+        padding: 20px 25px;
+    }
+
+    .header-flex{
+        height: 60px;
+    }
+
+    .menu-bars{
+        width: 40px;
+        color: white;
+    }
+           
+    .navbarShow {
+        left: 0 !important;
+    }
+
+    .banner-box{
+        justify-content: center;
+    }
+
+    /* navbar */
+    .menu-principal {
+        position: fixed; /* viewport/janela */
+        top: 0px;
+        left: -80%;
+        z-index: 10;
+        z-index: 10;
+
+        width: 80%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.95);
+        background-image: url(/assets/images/logo.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 100px;
+        background-size: 250px;
+        /* Já tem flexbox */
+        flex-direction: column;
+        justify-content: center;
+
+        transition: left 0.5s;
+    }
+
+    .menu-principal	a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        width: 80%;
+        height: 30px;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        border-left: 3px dotted white;
+        
+    }
+
+    .entrar {
+        background-color: rgba(0,0,0,0.8) !important;
+        font-weight: bold;
+    }
+}
